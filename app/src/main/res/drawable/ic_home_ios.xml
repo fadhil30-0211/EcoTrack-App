@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Roof -->
+    <path
+        android:pathData="M24,6L6,22H10V40H38V22H42L24,6Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="40"
+                android:startX="24"
+                android:startY="6"
+                android:type="linear">
+                <item android:color="#FF6B6B" android:offset="0" />
+                <item android:color="#EE5253" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- House Body -->
+    <path
+        android:pathData="M14,24H34V40H14V24Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="40"
+                android:startX="24"
+                android:startY="24"
+                android:type="linear">
+                <item android:color="#FFD93D" android:offset="0" />
+                <item android:color="#FFC107" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Door -->
+    <path
+        android:pathData="M21,32H27V40H21V32Z"
+        android:fillColor="#5D4037"/>
+</vector>

@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Truck Container -->
+    <path
+        android:pathData="M6,12h28v20h-28z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="20"
+                android:endY="32"
+                android:startX="20"
+                android:startY="12"
+                android:type="linear">
+                <item android:color="#2196F3" android:offset="0" />
+                <item android:color="#1976D2" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Truck Cabin -->
+    <path
+        android:pathData="M34,16h8l4,8v8h-12z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="40"
+                android:endY="32"
+                android:startX="40"
+                android:startY="16"
+                android:type="linear">
+                <item android:color="#BBDEFB" android:offset="0" />
+                <item android:color="#90CAF9" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Wheels -->
+    <path
+        android:pathData="M12,38c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4zM38,38c-2.2,0 -4,-1.8 -4,-4s1.8,-4 4,-4s4,1.8 4,4s-1.8,4 -4,4z"
+        android:fillColor="#424242"/>
+</vector>

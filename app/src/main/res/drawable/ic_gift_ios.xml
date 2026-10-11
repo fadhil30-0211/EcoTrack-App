@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Box -->
+    <path
+        android:pathData="M10,20h28v22h-28z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="42"
+                android:startX="24"
+                android:startY="20"
+                android:type="linear">
+                <item android:color="#FFB300" android:offset="0" />
+                <item android:color="#F57F17" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lid -->
+    <path
+        android:pathData="M6,14h36v8h-36z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="22"
+                android:startX="24"
+                android:startY="14"
+                android:type="linear">
+                <item android:color="#FFD54F" android:offset="0" />
+                <item android:color="#FFB300" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Ribbon -->
+    <path
+        android:pathData="M22,14h4v28h-4z"
+        android:fillColor="#E64A19"/>
+    <!-- Bow -->
+    <path
+        android:pathData="M24,14c-3,-6 -10,-6 -10,0c0,4 6,4 10,0c4,4 10,4 10,0c0,-6 -7,-6 -10,0z"
+        android:fillColor="#FF5722"/>
+</vector>

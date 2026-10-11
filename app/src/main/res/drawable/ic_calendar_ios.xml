@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Calendar Body -->
+    <path
+        android:pathData="M38,8H10c-2.2,0 -4,1.8 -4,4v26c0,2.2 1.8,4 4,4h28c2.2,0 4,-1.8 4,-4V12C42,9.8 40.2,8 38,8Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="42"
+                android:startX="24"
+                android:startY="8"
+                android:type="linear">
+                <item android:color="#FFFFFF" android:offset="0" />
+                <item android:color="#F5F5F5" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Header -->
+    <path
+        android:pathData="M38,8H10c-2.2,0 -4,1.8 -4,4v6h36v-6C42,9.8 40.2,8 38,8Z"
+        android:fillColor="#FF5252"/>
+    <!-- Text -->
+    <path
+        android:pathData="M14,24h20M14,30h20M14,36h12"
+        android:strokeWidth="2"
+        android:strokeColor="#E0E0E0"
+        android:strokeLineCap="round"/>
+</vector>

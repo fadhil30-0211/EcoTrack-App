@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Clipboard Base -->
+    <path
+        android:pathData="M38,10H32V6C32,4.9 31.1,4 30,4H18C16.9,4 16,4.9 16,6V10H10C8.9,10 8,10.9 8,12V40C8,41.1 8.9,42 10,42H38C39.1,42 40,41.1 40,40V12C40,10.9 39.1,10 38,10Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="42"
+                android:startX="24"
+                android:startY="4"
+                android:type="linear">
+                <item android:color="#F5F5F5" android:offset="0" />
+                <item android:color="#E0E0E0" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Paper -->
+    <path
+        android:pathData="M12,14H36V38H12V14Z"
+        android:fillColor="#FFFFFF"/>
+    <!-- Lines on paper -->
+    <path
+        android:pathData="M16,20H32M16,26H32M16,32H26"
+        android:strokeWidth="1.5"
+        android:strokeColor="#BDBDBD"
+        android:strokeLineCap="round"/>
+    <!-- Clip -->
+    <path
+        android:pathData="M24,4c-2.2,0 -4,1.8 -4,4v4h8V8C28,5.8 26.2,4 24,4Z"
+        android:fillColor="#757575"/>
+</vector>

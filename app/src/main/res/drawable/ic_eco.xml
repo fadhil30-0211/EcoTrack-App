@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Leaf Body with Glossy Gradient -->
+    <path
+        android:pathData="M38,8C28,8 14,18 14,32C14,38 18,42 24,42C38,42 42,28 42,12C42,10 40,8 38,8Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="28"
+                android:endY="42"
+                android:startX="28"
+                android:startY="8"
+                android:type="linear">
+                <item android:color="#81C784" android:offset="0" />
+                <item android:color="#43A047" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Highlight -->
+    <path
+        android:pathData="M38,10C30,10 20,18 18,30"
+        android:strokeWidth="2"
+        android:strokeColor="#40FFFFFF"
+        android:strokeLineCap="round"/>
+    <!-- Center Vein -->
+    <path
+        android:pathData="M14,32C24,32 38,22 42,12"
+        android:strokeWidth="1.5"
+        android:strokeColor="#1B5E20"
+        android:strokeLineCap="round"/>
+    <!-- Stem -->
+    <path
+        android:pathData="M14,32C10,32 6,36 6,40"
+        android:strokeWidth="3"
+        android:strokeColor="#5D4037"
+        android:strokeLineCap="round"/>
+</vector>

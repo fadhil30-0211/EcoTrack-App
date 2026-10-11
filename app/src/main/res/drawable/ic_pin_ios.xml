@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Pin Body -->
+    <path
+        android:pathData="M24,4c-7.7,0 -14,6.3 -14,14c0,10.5 14,26 14,26s14,-15.5 14,-26C38,10.3 31.7,4 24,4Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="44"
+                android:startX="24"
+                android:startY="4"
+                android:type="linear">
+                <item android:color="#FF5252" android:offset="0" />
+                <item android:color="#D32F2F" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Circle -->
+    <path
+        android:pathData="M24,24c-3.3,0 -6,-2.7 -6,-6s2.7,-6 6,-6s6,2.7 6,6S27.3,24 24,24Z"
+        android:fillColor="#FFFFFF"/>
+</vector>

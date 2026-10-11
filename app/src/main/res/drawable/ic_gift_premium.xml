@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Box Bottom -->
+    <path
+        android:fillColor="#F57F17"
+        android:pathData="M10,20H38V42H10z"/>
+    <!-- Lid -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M6,16H42V22H6z"/>
+    <!-- Ribbon Vertical -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M22,16H26V42H22z"/>
+    <!-- Bow -->
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M24,16c-3,-6 -8,-6 -8,-2s5,2 8,2c3,0 8,-2 8,-2s-5,-4 -8,2z"/>
+</vector>

@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Camera Body -->
+    <path
+        android:pathData="M38,12H32L29,8H19L16,12H10C7.8,12 6,13.8 6,16V38C6,40.2 7.8,42 10,42H38C40.2,42 42,40.2 42,38V16C42,13.8 40.2,12 38,12Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="42"
+                android:startX="24"
+                android:startY="12"
+                android:type="linear">
+                <item android:color="#9E9E9E" android:offset="0" />
+                <item android:color="#616161" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Lens Outer -->
+    <path
+        android:pathData="M24,38C18.5,38 14,33.5 14,28C14,22.5 18.5,18 24,18C29.5,18 34,22.5 34,28C34,33.5 29.5,38 24,38Z"
+        android:fillColor="#212121"/>
+    <!-- Lens Reflection -->
+    <path
+        android:pathData="M20,24C20,24 21,22 24,22C27,22 28,24 28,24"
+        android:strokeWidth="1.5"
+        android:strokeColor="#40FFFFFF"
+        android:strokeLineCap="round"/>
+    <!-- Flash -->
+    <path
+        android:pathData="M36,16H39V19H36V16Z"
+        android:fillColor="#FFEB3B"/>
+</vector>

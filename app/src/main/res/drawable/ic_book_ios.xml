@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Book Body -->
+    <path
+        android:pathData="M12,6h24c2.2,0 4,1.8 4,4v28c0,2.2 -1.8,4 -4,4h-24c-2.2,0 -4,-1.8 -4,-4v-28c0,-2.2 1.8,-4 4,-4Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="42"
+                android:startX="24"
+                android:startY="6"
+                android:type="linear">
+                <item android:color="#FFD54F" android:offset="0" />
+                <item android:color="#FFB300" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Page edges -->
+    <path
+        android:pathData="M34,6h6v36h-6V6Z"
+        android:fillColor="#F5F5F5"/>
+    <!-- Cover Detail -->
+    <path
+        android:pathData="M16,14h12M16,20h12"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+</vector>

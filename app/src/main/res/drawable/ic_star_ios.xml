@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Star Body -->
+    <path
+        android:pathData="M24,2L30.9,15.9L46,18.1L35,28.8L37.6,44L24,36.8L10.4,44L13,28.8L2,18.1L17.1,15.9L24,2Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="24"
+                android:endY="44"
+                android:startX="24"
+                android:startY="2"
+                android:type="linear">
+                <item android:color="#FFD54F" android:offset="0" />
+                <item android:color="#FFB300" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Highlight -->
+    <path
+        android:pathData="M24,5L29,15L42,16.5L33,24.5L35,36L24,30.5L13,36L15,24.5L6,16.5L19,15L24,5Z"
+        android:fillColor="#40FFFFFF"/>
+</vector>
